@@ -1,0 +1,409 @@
+{
+  "flights": [
+    {
+      "id": 1,
+      "origin": "Moscow",
+      "destination": "New York",
+      "price": 500,
+      "stops": 3,
+      "layovers": [
+        {
+          "airport": "Frankfurt",
+          "duration": "2h",
+          "flightTime": "5h"
+        },
+        {
+          "airport": "Chicago",
+          "duration": "3h",
+          "flightTime": "8h"
+        },
+        {
+          "airport": "Atlanta",
+          "duration": "1h",
+          "flightTime": "3h"
+        }
+      ],
+      "totalFlightTime": "16h"
+    },
+    {
+      "id": 2,
+      "origin": "London",
+      "destination": "Paris",
+      "price": 200,
+      "stops": 1,
+      "layovers": [
+        {
+          "airport": "Amsterdam",
+          "duration": "1h",
+          "flightTime": "2h"
+        }
+      ],
+      "totalFlightTime": "4h"
+    },
+    {
+      "id": 3,
+      "origin": "Berlin",
+      "destination": "Rome",
+      "price": 300,
+      "stops": 2,
+      "layovers": [
+        {
+          "airport": "Vienna",
+          "duration": "2h",
+          "flightTime": "4h"
+        },
+        {
+          "airport": "Madrid",
+          "duration": "1h",
+          "flightTime": "3h"
+        }
+      ],
+      "totalFlightTime": "10h"
+    },
+    {
+      "id": 4,
+      "origin": "New York",
+      "destination": "Los Angeles",
+      "price": 400,
+      "stops": 4,
+      "layovers": [
+        {
+          "airport": "Denver",
+          "duration": "2h",
+          "flightTime": "4h"
+        },
+        {
+          "airport": "Las Vegas",
+          "duration": "1h",
+          "flightTime": "2h"
+        },
+        {
+          "airport": "San Francisco",
+          "duration": "2h",
+          "flightTime": "5h"
+        },
+        {
+          "airport": "Seattle",
+          "duration": "1h",
+          "flightTime": "3h"
+        }
+      ],
+      "totalFlightTime": "18h"
+    },
+    {
+      "id": 5,
+      "origin": "Paris",
+      "destination": "Barcelona",
+      "price": 250,
+      "stops": 1,
+      "layovers": [
+        {
+          "airport": "Madrid",
+          "duration": "1h",
+          "flightTime": "2h"
+        }
+      ],
+      "totalFlightTime": "5h"
+    },
+    {
+      "id": 6,
+      "origin": "Los Angeles",
+      "destination": "Sydney",
+      "price": 800,
+      "stops": 5,
+      "layovers": [
+        {
+          "airport": "Honolulu",
+          "duration": "2h",
+          "flightTime": "5h"
+        },
+        {
+          "airport": "Auckland",
+          "duration": "3h",
+          "flightTime": "6h"
+        },
+        {
+          "airport": "Nadi",
+          "duration": "2h",
+          "flightTime": "4h"
+        },
+        {
+          "airport": "Brisbane",
+          "duration": "1h",
+          "flightTime": "2h"
+        },
+        {
+          "airport": "Melbourne",
+          "duration": "2h",
+          "flightTime": "4h"
+        }
+      ],
+      "totalFlightTime": "28h"
+    },
+    {
+      "id": 7,
+      "origin": "Sydney",
+      "destination": "Tokyo",
+      "price": 600,
+      "stops": 3,
+      "layovers": [
+        {
+          "airport": "Seoul",
+          "duration": "2h",
+          "flightTime": "4h"
+        },
+        {
+          "airport": "Shanghai",
+          "duration": "1h",
+          "flightTime": "2h"
+        },
+        {
+          "airport": "Beijing",
+          "duration": "1h",
+          "flightTime": "3h"
+        }
+      ],
+      "totalFlightTime": "12h"
+    },
+    {
+      "id": 8,
+      "origin": "Tokyo",
+      "destination": "Seoul",
+      "price": 200,
+      "stops": 2,
+      "layovers": [
+        {
+          "airport": "Shanghai",
+          "duration": "2h",
+          "flightTime": "3h"
+        },
+        {
+          "airport": "Beijing",
+          "duration": "1h",
+          "flightTime": "2h"
+        }
+      ],
+      "totalFlightTime": "7h"
+    },
+    {
+      "id": 9,
+      "origin": "Athens",
+      "destination": "Istanbul",
+      "price": 180,
+      "stops": 2,
+      "layovers": [
+        {
+          "airport": "Rome",
+          "duration": "2h",
+          "flightTime": "3h"
+        },
+        {
+          "airport": "Sofia",
+          "duration": "1h",
+          "flightTime": "2h"
+        }
+      ],
+      "totalFlightTime": "6h"
+    },
+    {
+      "id": 10,
+      "origin": "Istanbul",
+      "destination": "Cairo",
+      "price": 220,
+      "stops": 3,
+      "layovers": [
+        {
+          "airport": "Dubai",
+          "duration": "2h",
+          "flightTime": "4h"
+        },
+        {
+          "airport": "Amman",
+          "duration": "1h",
+          "flightTime": "3h"
+        },
+        {
+          "airport": "Luxor",
+          "duration": "1h",
+          "flightTime": "2h"
+        }
+      ],
+      "totalFlightTime": "12h"
+    },
+    {
+      "id": 11,
+      "origin": "Cairo",
+      "destination": "Dubai",
+      "price": 300,
+      "stops": 2,
+      "layovers": [
+        {
+          "airport": "Muscat",
+          "duration": "2h",
+          "flightTime": "3h"
+        },
+        {
+          "airport": "Doha",
+          "duration": "1h",
+          "flightTime": "2h"
+        }
+      ],
+      "totalFlightTime": "7h"
+    },
+    {
+      "id": 12,
+      "origin": "Dubai",
+      "destination": "Mumbai",
+      "price": 250,
+      "stops": 1,
+      "layovers": [
+        {
+          "airport": "Abu Dhabi",
+          "duration": "1h",
+          "flightTime": "3h"
+        }
+      ],
+      "totalFlightTime": "4h"
+    },
+    {
+      "id": 13,
+      "origin": "Mumbai",
+      "destination": "Bangkok",
+      "price": 400,
+      "stops": 3,
+      "layovers": [
+        {
+          "airport": "Colombo",
+          "duration": "2h",
+          "flightTime": "3h"
+        },
+        {
+          "airport": "Kuala Lumpur",
+          "duration": "1h",
+          "flightTime": "2h"
+        },
+        {
+          "airport": "Phuket",
+          "duration": "1h",
+          "flightTime": "2h"
+        }
+      ],
+      "totalFlightTime": "11h"
+    },
+    {
+      "id": 14,
+      "origin": "Bangkok",
+      "destination": "Singapore",
+      "price": 300,
+      "stops": 2,
+      "layovers": [
+        {
+          "airport": "Kuala Lumpur",
+          "duration": "2h",
+          "flightTime": "3h"
+        },
+        {
+          "airport": "Jakarta",
+          "duration": "1h",
+          "flightTime": "2h"
+        }
+      ],
+      "totalFlightTime": "7h"
+    },
+    {
+      "id": 15,
+      "origin": "Singapore",
+      "destination": "Hong Kong",
+      "price": 200,
+      "stops": 1,
+      "layovers": [
+        {
+          "airport": "Kuala Lumpur",
+          "duration": "1h",
+          "flightTime": "3h"
+        }
+      ],
+      "totalFlightTime": "4h"
+    },
+    {
+      "id": 16,
+      "origin": "Hong Kong",
+      "destination": "Shanghai",
+      "price": 180,
+      "stops": 1,
+      "layovers": [
+        {
+          "airport": "Taipei",
+          "duration": "1h",
+          "flightTime": "2h"
+        }
+      ],
+      "totalFlightTime": "3h"
+    },
+    {
+      "id": 17,
+      "origin": "Shanghai",
+      "destination": "Beijing",
+      "price": 150,
+      "stops": 2,
+      "layovers": [
+        {
+          "airport": "Seoul",
+          "duration": "2h",
+          "flightTime": "4h"
+        },
+        {
+          "airport": "Taipei",
+          "duration": "1h",
+          "flightTime": "2h"
+        }
+      ],
+      "totalFlightTime": "8h"
+    },
+    {
+      "id": 18,
+      "origin": "Beijing",
+      "destination": "Seoul",
+      "price": 250,
+      "stops": 1,
+      "layovers": [
+        {
+          "airport": "Tokyo",
+          "duration": "2h",
+          "flightTime": "3h"
+        }
+      ],
+      "totalFlightTime": "5h"
+    },
+    {
+      "id": 19,
+      "origin": "Seoul",
+      "destination": "Tokyo",
+      "price": 200,
+      "stops": 1,
+      "layovers": [
+        {
+          "airport": "Osaka",
+          "duration": "1h",
+          "flightTime": "2h"
+        }
+      ],
+      "totalFlightTime": "4h"
+    },
+    {
+      "id": 20,
+      "origin": "Tokyo",
+      "destination": "Osaka",
+      "price": 150,
+      "stops": 1,
+      "layovers": [
+        {
+          "airport": "Sapporo",
+          "duration": "1h",
+          "flightTime": "2h"
+        }
+      ],
+      "totalFlightTime": "3h"
+    }
+  ]
+}
